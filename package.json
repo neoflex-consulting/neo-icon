@@ -1,0 +1,29 @@
+{
+  "name": "neo-icon",
+  "version": "1.0.2",
+  "description": "Neoflex Icon",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "files": [
+    "lib",
+    "icons"
+  ],
+  "scripts": {
+    "compile": "gulp"
+  },
+  "author": "Suvorova Anna",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.25",
+    "@types/react": "^16.9.43",
+    "gulp": "4.0.2",
+    "gulp-filelist": "2.0.3",
+    "gulp-svg-sprite": "1.5.0",
+    "gulp-typescript": "5.0.1",
+    "react": "^16.13.1",
+    "typescript": "~3.9.2"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
