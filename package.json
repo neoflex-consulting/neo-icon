@@ -25,5 +25,14 @@
   },
   "directories": {
     "lib": "lib"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedaira/neo-icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hedaira/neo-icon/issues"
+  },
+  "homepage": "https://github.com/hedaira/neo-icon#readme"
 }
