@@ -72,7 +72,7 @@ const SvgNames = tuple(
 );
 export type SvgName = typeof SvgNames[number];
 
-const SizeTypes = tuple('s', 'm', 'l');
+const SizeTypes = tuple('s', 'm', 'l', 'xl');
 export type SizeType = typeof SizeTypes[number];
 
 export interface IconProps {
@@ -95,7 +95,12 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
         size
     } = props;
 
-    const newSize = (size === 's' ? '8' : size === 'm' ? '24' : size === 'l' ? '200' : undefined);
+    const newSize = (
+        size === 's' ? '8' :
+            size === 'm' ? '24' :
+                size === 'l' ? '56' :
+                    size === 'xl' ? '200' :
+                        undefined);
 
     return (
         <div className={className} style={style}>
