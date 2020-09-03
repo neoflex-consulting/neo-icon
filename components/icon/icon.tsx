@@ -70,15 +70,17 @@ const SvgNames = tuple(
     "update",
     "warning"
 );
-
 export type SvgName = typeof SvgNames[number];
+
+const SizeTypes = tuple('s', 'm', 'l');
+export type SizeType = typeof SizeTypes[number];
 
 export interface IconProps {
     icon: SvgName;
     className?: string;
     style?;
     color?: string;
-    size?: string;
+    size?: SizeType;
 }
 
 interface CompoundedComponent
@@ -93,9 +95,11 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
         size
     } = props;
 
+    const newSize = (size === 's' ? '8' : size === 'm' ? '24' : size === 'l' ? '200' : undefined);
+
     return (
         <div className={className} style={style}>
-            <svg width={size || "24"} height={size || "24"} viewBox="0 0 24 24" fill={color || '#293468'}>
+            <svg width={newSize || "16"} height={newSize || "16"} viewBox="0 0 24 24" fill={color || '#293468'}>
                 <use xlinkHref={`${allSvg}#${icon}`} />
             </svg>
         </div>
