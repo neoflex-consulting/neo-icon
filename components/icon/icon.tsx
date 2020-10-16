@@ -34,6 +34,8 @@ const SvgNames = tuple(
     "edit",
     "exit",
     "exportFile",
+    "fileExcel",
+    "fileWord",
     "fill",
     "filter",
     "filterCheck",
