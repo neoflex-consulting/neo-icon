@@ -28,6 +28,7 @@ const SvgNames = tuple(
     "cloudDownload",
     "cloudServer",
     "code",
+    "compose",
     "delete",
     "diagram",
     "diagramBlock",
