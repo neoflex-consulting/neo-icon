@@ -21,24 +21,32 @@ const SvgNames = tuple(
     "calendar",
     "calendarFull",
     "checkbox",
+    "checkboxDisabled",
     "checkboxFill",
+    "checkStatus",
     "close",
+    "cloudDownload",
     "cloudServer",
     "code",
     "delete",
     "diagram",
     "diagramBlock",
     "diagramCircle",
+    "directory",
     "download",
+    "dragAndDrop",
     "duplicate",
     "edit",
+    "ellipsis",
     "exit",
     "exportFile",
+    "file",
     "fileExcel",
     "fileWord",
     "fill",
     "filter",
     "filterCheck",
+    "form",
     "fullScreen",
     "fullScreenUnDo",
     "gear",
@@ -72,6 +80,7 @@ const SvgNames = tuple(
     "radioButtonFill",
     "rubbish",
     "search",
+    "searchCheck",
     "settings",
     "show",
     "sort",
@@ -83,15 +92,18 @@ const SvgNames = tuple(
     "switchOn",
     "table",
     "tableUp",
+    "team",
     "tiles",
+    "tools",
     "undo",
     "update-clock",
     "update",
+    "updateTwoLine",
     "warning"
 );
 export type SvgName = typeof SvgNames[number];
 
-const SizeTypes = tuple('s', 'm');
+const SizeTypes = tuple('xs', 's', 'm');
 export type SizeType = typeof SizeTypes[number];
 
 export interface IconProps {
@@ -116,9 +128,10 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
     } = props;
 
     const newSize = (
-        size === 's' ? '8' :
-            size === 'm' ? '24' :
-                customSize || undefined);
+        size === 'xs' ? '8' :
+            size === 's' ? '12' :
+                size === 'm' ? '24' :
+                    customSize || undefined);
 
     return (
         <div
