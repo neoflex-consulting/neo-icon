@@ -123,7 +123,7 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
     return (
         <div
             className={className}
-            style={{...props.style, cursor: "pointer"}}
+            style={{...props.style, cursor: "pointer", display: "inline-flex", alignItems: "center"}}
         >
             <svg width={newSize || "16"} height={newSize || "16"} viewBox="0 0 24 24" fill={color || '#293468'}>
                 <use xlinkHref={`${allSvg}#${icon}`} />
