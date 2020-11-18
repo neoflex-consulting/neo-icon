@@ -35,6 +35,8 @@ const SvgNames = tuple(
     "diagramCircle",
     "directory",
     "document",
+    "doubleLeft",
+    "doubleRight",
     "download",
     "dragAndDrop",
     "duplicate",
