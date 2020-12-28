@@ -190,6 +190,7 @@ const SvgNames = tuple(
     "heart",
     "hide",
     "home",
+    "hideCheck",
     "hourglass",
     "image",
     "important",
