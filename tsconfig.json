@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "rootDir": "src",
     "allowJs": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -17,5 +18,8 @@
     "types": [
       "node"
     ]
-  }
+  },
+  "include": [
+    "src", "src/index.d.ts"
+  ]
 }
