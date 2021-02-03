@@ -268,7 +268,7 @@ import Settings from '../../svg/settings.svg';
 import Share from '../../svg/share.svg';
 import Show from '../../svg/show.svg';
 import SingUp from '../../svg/sing-up.svg';
-import SkaleFit from '../../svg/skaleFit.svg';
+import Skalefit from '../../svg/skalefit.svg';
 import Sort from '../../svg/sort.svg';
 import SortCheck from '../../svg/sortCheck.svg';
 import Speed from '../../svg/speed.svg';
@@ -587,7 +587,7 @@ const SvgMap = {
     "share": Share,
     "show": Show,
     "sing-up": SingUp,
-    "skaleFit": SkaleFit,
+    "skalefit": Skalefit,
     "sort": Sort,
     "sortCheck": SortCheck,
     "speed": Speed,

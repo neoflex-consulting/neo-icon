@@ -2,7 +2,7 @@
   "name": "neo-icon",
   "version": "1.0.50",
   "description": "Neoflex Icon",
-  "main": "lib/components/index.js",
+  "main": "lib/icon.js",
   "module": "neo-icon",
   "scripts": {
     "clean": "rimraf lib/",
