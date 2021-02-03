@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "src",
+    "outDir": "lib",
     "allowJs": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -11,6 +12,7 @@
     "noEmitOnError": true,
     "noImplicitAny": false,
     "sourceMap": true,
+    "declaration": true,
     "suppressImplicitAnyIndexErrors": true,
     "target": "es5",
     "lib": ["es5", "es6", "es2015", "es2016", "es2017", "dom"],

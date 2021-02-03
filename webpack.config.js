@@ -1,8 +1,34 @@
 const path = require('path');
 const webpack = require('webpack');
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-    entry: '/src/components/index.tsx',
+    entry: {
+        'my-lib': '/src/components/index.tsx',
+        'my-lib.min': '/src/components/index.tsx'
+    },
+    output: {
+        path: path.resolve(__dirname, '_bundles'),
+        filename: '[name].js',
+        libraryTarget: 'umd',
+        library: 'MyLib',
+        umdNamedDefine: true
+    },
+    resolve: {
+        extensions: ['.js', '.ts','.jsx', '.tsx']
+    },
+    devtool: 'source-map',
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin({
+                uglifyOptions: {
+                    mangle: {
+                        keep_fnames: true,
+                    },
+                },
+            }),
+        ],
+    },
     module: {
         rules: [
             {
@@ -11,16 +37,9 @@ module.exports = {
             },
             {
                 test: /\.tsx?$/,
-                use: 'ts-loader',
+                loader: 'awesome-typescript-loader',
                 exclude: /node_modules/,
             },
         ],
-    },
-    resolve: {
-        extensions: ['.js', '.ts','.jsx', '.tsx']
-    },
-    output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
     },
 };
