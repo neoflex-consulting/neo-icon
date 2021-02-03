@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "lib",
+    "declarationDir": "lib",
     "allowJs": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
