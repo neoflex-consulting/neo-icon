@@ -1,5 +1,6 @@
 import * as React from "react";
 import {tuple} from '../_utils/tools'
+import {useEffect} from "react";
 const allSvg = require('../../icons/sprite.svg');
 const SvgNames = tuple(
     "add",
@@ -345,6 +346,11 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
         size,
         customSize
     } = props;
+
+    //after mount
+    useEffect(() => {
+        new Image().src = `../../svg/${icon}.svg`
+    }, []);
 
     const newSize = (
         size === 'xs' ? '8' :
