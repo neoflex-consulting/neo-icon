@@ -4,9 +4,9 @@ module.exports = {
     entry: './src/index.tsx',
     output: {
         path: path.resolve(__dirname, 'lib'),
-        filename: '[name].js',
+        filename: 'index.js',
         libraryTarget: 'umd',
-        library: 'neo-icon',
+        library: 'NeoIcon',
         umdNamedDefine: true
     },
     resolve: {
