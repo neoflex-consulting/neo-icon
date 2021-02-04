@@ -2,8 +2,8 @@
   "name": "neo-icon",
   "version": "1.0.42",
   "description": "Neoflex Icon",
-  "main": "dist/main.js",
-  "module": "dist/main.js",
+  "main": "lib/main.js",
+  "types": "lib/",
   "scripts": {
     "build": "webpack --mode production"
   },
