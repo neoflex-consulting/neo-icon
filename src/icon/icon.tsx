@@ -635,7 +635,8 @@ const SvgMap = {
     "wifi": Wifi
 };
 
-export type SvgName = keyof typeof SvgMap;
+export const SvgNameArray = Object.keys(SvgMap);
+export type SvgName = typeof SvgNameArray[number];
 const SizeTypes = tuple('xs', 's', 'm');
 export type SizeType = typeof SizeTypes[number];
 
