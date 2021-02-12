@@ -1,6 +1,5 @@
-import NeoIcon, {SvgNameArray} from './icon';
+import NeoIcon from './icon';
 
-export {SvgNameArray as SvgNameArray}
 export default NeoIcon;
 
 
