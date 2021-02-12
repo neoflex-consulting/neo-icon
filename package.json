@@ -1,32 +1,27 @@
 {
   "name": "neo-icon",
-  "version": "1.0.37",
+  "version": "1.0.57",
   "description": "Neoflex Icon",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "files": [
-    "lib",
-    "icons"
-  ],
+  "main": "lib/main.js",
+  "module": "lib/main.js",
+  "types": "lib/",
   "scripts": {
-    "compile": "gulp"
+    "build": "webpack --mode production"
   },
   "author": "Suvorova Anna",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^14.0.25",
     "@types/react": "^17.0.0",
-    "gulp": "4.0.2",
-    "gulp-filelist": "2.0.3",
-    "gulp-svg-sprite": "1.5.0",
-    "gulp-typescript": "5.0.1",
-    "react": "^17.0.1",
-    "typescript": "4.1.3"
+    "react": "^17.0.1"
   },
-  "directories": {
-    "lib": "lib"
+  "devDependencies": {
+    "@svgr/webpack": "5.5.0",
+    "ts-loader": "8.0.14",
+    "typescript": "4.1.3",
+    "webpack": "5.20.1",
+    "webpack-cli": "4.5.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hedaira/neo-icon.git"
