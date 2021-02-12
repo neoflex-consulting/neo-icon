@@ -635,8 +635,7 @@ const SvgMap = {
     "wifi": Wifi
 };
 
-export const SvgNameArray = Object.keys(SvgMap);
-export type SvgName = typeof SvgNameArray[number];
+export type SvgName = keyof typeof SvgMap;
 const SizeTypes = tuple('xs', 's', 'm');
 export type SizeType = typeof SizeTypes[number];
 
@@ -687,3 +686,4 @@ NeoIcon.defaultProps = {
 };
 
 export default NeoIcon
+
