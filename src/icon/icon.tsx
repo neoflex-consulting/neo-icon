@@ -671,7 +671,7 @@ const InternalIcon: React.ForwardRefRenderFunction<unknown, IconProps> = (props,
     return (
         <div
             className={className}
-            style={{...props.style, cursor: "pointer", display: "inline-flex", alignItems: "center"}}
+            style={{...props.style, cursor: "inherit", display: "inline-flex", alignItems: "center"}}
         >
             <Icon width={newSize || "16"} height={newSize || "16"} viewBox="0 0 24 24" fill={color || '#293468'} />
         </div>
