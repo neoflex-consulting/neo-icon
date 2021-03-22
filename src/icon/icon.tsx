@@ -215,6 +215,7 @@ import Menu5 from '../svg/menu-5.svg';
 import MenuOpen from '../svg/menuOpen.svg';
 import MinusCircle from '../svg/minus-circle.svg';
 import MinusSquare from '../svg/minus-square.svg';
+import MinusSquareCheck from '../svg/minus-square-check.svg';
 import Minus from '../svg/minus.svg';
 import Money from '../svg/money.svg';
 import More from '../svg/more.svg';
@@ -241,6 +242,7 @@ import PlayArrow from '../svg/play-arrow.svg';
 import PlayFilled from '../svg/play-filled.svg';
 import Play from '../svg/play.svg';
 import PlusSquare from '../svg/plus-square.svg';
+import PlusSquareCheck from '../svg/plus-square-check.svg';
 import Plus from '../svg/plus.svg';
 import Plus2 from '../svg/plus2.svg';
 import PlusBlock from '../svg/plusBlock.svg';
@@ -535,6 +537,7 @@ const SvgMap = {
     "minus": Minus,
     "minus-circle": MinusCircle,
     "minus-square": MinusSquare,
+    "minus-square-check": MinusSquareCheck,
     "money": Money,
     "more": More,
     "move": Move,
@@ -561,6 +564,7 @@ const SvgMap = {
     "play-filled": PlayFilled,
     "plus": Plus,
     "plus-square": PlusSquare,
+    "plus-square-check": PlusSquareCheck,
     "plus2": Plus2,
     "plusBlock": PlusBlock,
     "plusBlockCheck": PlusBlockCheck,
