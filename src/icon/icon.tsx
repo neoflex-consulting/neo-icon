@@ -217,6 +217,7 @@ import MinusCircle from '../svg/minus-circle.svg';
 import MinusSquare from '../svg/minus-square.svg';
 import MinusSquareCheck from '../svg/minus-square-check.svg';
 import Minus from '../svg/minus.svg';
+import MinusCheck from '../svg/minus-check.svg';
 import Money from '../svg/money.svg';
 import More from '../svg/more.svg';
 import Move from '../svg/move.svg';
@@ -535,6 +536,7 @@ const SvgMap = {
     "menu-5": Menu5,
     "menuOpen": MenuOpen,
     "minus": Minus,
+    "minus-check": MinusCheck,
     "minus-circle": MinusCircle,
     "minus-square": MinusSquare,
     "minus-square-check": MinusSquareCheck,
