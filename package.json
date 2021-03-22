@@ -1,6 +1,6 @@
 {
   "name": "neo-icon",
-  "version": "1.0.68",
+  "version": "1.0.70",
   "description": "Neoflex Icon",
   "main": "lib/main.js",
   "module": "lib/main.js",
