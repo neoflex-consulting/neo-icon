@@ -5,6 +5,7 @@ import AddCheck from '../svg/addCheck.svg';
 import AddFile from '../svg/addFile.svg';
 import Alert from '../svg/alert.svg';
 import Ancore from '../svg/ancore.svg';
+import Apps from '../svg/apps.svg';
 import ArrowBack from '../svg/arrow-back.svg';
 import ArrowBackward from '../svg/arrow-backward.svg';
 import ArrowDoubleReply from '../svg/arrow-double-reply.svg';
@@ -324,6 +325,7 @@ const SvgMap = {
     "addFile": AddFile,
     "alert": Alert,
     "ancore": Ancore,
+    "apps": Apps,
     "arrow-back": ArrowBack,
     "arrow-backward": ArrowBackward,
     "arrow-double-reply": ArrowDoubleReply,
