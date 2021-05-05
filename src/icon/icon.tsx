@@ -641,7 +641,7 @@ const SvgMap = {
     "warning": Warning,
     "warning-triangle": WarningTriangle,
     "wifi": Wifi
-};
+}
 
 export type SvgName = keyof typeof SvgMap;
 const SizeTypes = tuple('xs', 's', 'm');
