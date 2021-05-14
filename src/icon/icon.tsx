@@ -75,6 +75,7 @@ import ChatHelp from '../svg/chat-help.svg';
 import ChatOff from '../svg/chat-off.svg';
 import ChatWarning from '../svg/chat-warning.svg';
 import Chat from '../svg/chat.svg';
+import Check from '../svg/check.svg';
 import Checkbox from '../svg/checkbox.svg';
 import CheckboxDisabled from '../svg/checkboxDisabled.svg';
 import CheckboxFill from '../svg/checkboxFill.svg';
@@ -397,6 +398,7 @@ const SvgMap = {
     "chat-help": ChatHelp,
     "chat-off": ChatOff,
     "chat-warning": ChatWarning,
+    "check": Check,
     "checkStatus": CheckStatus,
     "checkbox": Checkbox,
     "checkboxDisabled": CheckboxDisabled,
