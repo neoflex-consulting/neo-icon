@@ -642,7 +642,7 @@ const SvgMap = {
     "video-square": VideoSquare,
     "warning": Warning,
     "warning-triangle": WarningTriangle,
-    "wifi": Wifi
+    "wifi": Wifi,
 }
 
 export type SvgName = keyof typeof SvgMap;
