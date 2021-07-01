@@ -320,6 +320,25 @@ import WarningTriangle from '../svg/warning-triangle.svg';
 import Warning from '../svg/warning.svg';
 import Wifi from '../svg/wifi.svg';
 
+import EditorAppModuleNode from '../svg/editor-app-module-node.svg';
+import EditorCatalogNode from '../svg/editor-catalog-node.svg';
+import EditorChangeLog from '../svg/editor-change-log.svg';
+import EditorCollapse from '../svg/editor-collapse.svg';
+import EditorColumn from '../svg/editor-column.svg';
+import EditorDatasetView from '../svg/editor-dataset-view.svg';
+import EditorDrawer from '../svg/editor-drawer.svg';
+import EditorEventAction from '../svg/editor-event-action.svg';
+import EditorEventHandler from '../svg/editor-event-handler.svg';
+import EditorForm from '../svg/editor-form.svg';
+import EditorGroovyCommand from '../svg/editor-groovy-command.svg';
+import EditorHtmlContent from '../svg/editor-html-content.svg';
+import EditorNeoIcon from '../svg/editor-neo-icon.svg';
+import EditorRegion from '../svg/editor-region.svg';
+import EditorRow from '../svg/editor-row.svg';
+import EditorTypography from '../svg/editor-typography.svg';
+import EditorValueHolder from '../svg/editor-value-holder.svg';
+import EditorViewNode from '../svg/editor-view-node.svg';
+
 const SvgMap = {
     "add": Add,
     "addCheck": AddCheck,
@@ -643,6 +662,25 @@ const SvgMap = {
     "warning": Warning,
     "warning-triangle": WarningTriangle,
     "wifi": Wifi,
+
+    "editor-app-module-node": EditorAppModuleNode,
+    "editor-catalog-node": EditorCatalogNode,
+    "editor-change-log":EditorChangeLog,
+    "editor-collapse":EditorCollapse,
+    "editor-column":EditorColumn,
+    "editor-dataset-view":EditorDatasetView,
+    "editor-drawer":EditorDrawer,
+    "editor-event-action":EditorEventAction,
+    "editor-event-handler":EditorEventHandler,
+    "editor-form":EditorForm,
+    "editor-groovy-command":EditorGroovyCommand,
+    "editor-html-content":EditorHtmlContent,
+    "editor-neo-icon":EditorNeoIcon,
+    "editor-region":EditorRegion,
+    "editor-row":EditorRow,
+    "editor-typography":EditorTypography,
+    "editor-value-holder":EditorValueHolder,
+    "editor-view-node":EditorViewNode,
 }
 
 export type SvgName = keyof typeof SvgMap;
